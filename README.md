@@ -415,7 +415,7 @@ spring.datasource.url=jdbc:mysql://localhost:3306/examination_portal
 
 spring.datasource.username=root
 
-spring.datasource.password=
+spring.datasource.password=your_db_pwd
 
 spring.jpa.hibernate.ddl-auto=update
 ```
@@ -430,25 +430,10 @@ spring.jpa.hibernate.ddl-auto=update
 | `spring.jpa.hibernate.ddl-auto=update` | Automatically creates/updates JPA tables |
 
 ## MySQL Password
-
-The current local configuration uses:
-
-```properties
-spring.datasource.username=root
-spring.datasource.password=
-```
-
-If the evaluator's MySQL `root` account has a password, they must change it to their own local password.
-
-For example:
-
 ```properties
 spring.datasource.username=root
 spring.datasource.password=YOUR_MYSQL_PASSWORD
 ```
-
-Do not commit real personal database passwords or other sensitive credentials to GitHub.
-
 ---
 
 # Backend Setup
