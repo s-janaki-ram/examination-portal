@@ -275,7 +275,7 @@ const ManagerDashboard = () => {
           {/* Logo / Application Name */}
           <div>
             <h1 className="text-2xl font-bold text-slate-800">
-              AssessPro
+              Examination Portal
             </h1>
 
             <p className="text-xs text-slate-500">

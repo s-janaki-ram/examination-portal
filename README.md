@@ -71,6 +71,24 @@ Manager Dashboard
 
 ---
 
+## Screenshots
+
+### Login Page
+
+![Login Page](images/login.png)
+
+### Candidate Dashboard
+
+![Candidate Dashboard](images/candidate-dashboard.png)
+
+### Examination Page
+
+![Examination Page](images/exam.png)
+
+### Manager Dashboard
+
+![Manager Dashboard](images/manager-dashboard.png)
+
 # Architecture
 
 The application follows a **three-layer full-stack architecture**.
